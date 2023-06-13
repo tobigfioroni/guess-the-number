@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number guessing game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+    <h1>Juego de adivinanzas de números</h1>
+    <p>Se selecció un número aleatorio entre 1 y 100. Intenta adivinarlo en 10 turnos o menos. Se te dira si tu numero fue demasiado alto o demasiado bajo.</p>
+    <div class="form">
+      <label for="guessField">Introduce el número: </label>
+      <input type="number" min="1" max="100" required id="guessField" class="guessField">
+      <input type="submit" value="Adivinar" class="guessSubmit">
+    </div>
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+  </div>
+    <script src="main.js"></script>
+  </body>
+</html>

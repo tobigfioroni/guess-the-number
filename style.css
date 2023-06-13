@@ -1,0 +1,25 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  color: #fff;
+  background-color: rgb(14, 15, 15);
+}
+
+.form input[type="number"] {
+  width: 200px;
+}
+
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+
+.container {
+  margin-top: 150px;
+}
